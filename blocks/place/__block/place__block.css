@@ -1,0 +1,19 @@
+.place__block {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .place__block:not(:last-of-type) {
+    margin-bottom: 48px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .place__block {
+      flex-direction: column;
+    }
+  
+    .place__block:not(:last-of-type) {
+      margin-bottom: 32px;
+    }
+  
+  }
