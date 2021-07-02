@@ -1,0 +1,18 @@
+.header__list-item {
+    font-size: 24px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: right;
+    color: white;
+    margin-left: 18px;
+    text-decoration: none;
+  }
+    .header__list-item:last-of-type{
+    margin-right: 0px;
+  
+  }
+  .header__list-item:first-child{
+    text-decoration: underline;
+  }
+  
