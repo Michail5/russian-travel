@@ -11,4 +11,13 @@
   .header__list-item:last-of-type{
   text-decoration: none;
   }
+
+  @media screen and (max-width: 767px) {
+    .header__list-item {
+      width: 22px;
+      height: 20px;
+     font-size: 18px;
+     line-height: 20px;
+    }
+}
   
