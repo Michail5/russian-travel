@@ -8,15 +8,18 @@
   margin-right: 18px;
   transition: opacity 0.5s ease;
 }
-
+ 
 .footer__link:hover {
   opacity: 80%;
+ 
 }
 
 @media screen and (max-width: 425px) {
-  .footer__link-item {
+  .footer__link {
       font-size: 24px;
+      font-weight: normal;
       line-height: 24px;
       margin: 0 0 32px;
   }
-} 
+ 
+}  
